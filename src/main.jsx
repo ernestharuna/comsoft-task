@@ -29,7 +29,16 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Economic />,
+      },
+
+      {
+        path: 'economic',
+        element: <Economic />,
         children: [
+          {
+            index: true,
+            element: <Assets />
+          },
           {
             path: 'assets',
             element: <Assets />
@@ -52,10 +61,7 @@ const router = createBrowserRouter([
           },
         ]
       },
-      {
-        path: 'economic',
-        element: <Economic />,
-      },
+
       {
         path: 'administrative',
         element: <Administrative />

@@ -1,4 +1,5 @@
 import React from 'react'
+import Tree from '../components/Tree'
 
 export default function Programme() {
     return (
@@ -9,7 +10,7 @@ export default function Programme() {
                 </h1>
             </div>
 
-            <section className='flex gap-5 items-center justify-between'>
+            <section className='flex gap-5 items-center justify-between mb-10'>
                 <div className='flex gap-4'>
                     {/* First things */}
                     <div className="group relative">
@@ -36,6 +37,10 @@ export default function Programme() {
                     </button>
                 </div>
             </section>
+
+            <div className='font-semibold'>
+                <Tree />
+            </div>
         </>
     )
 }

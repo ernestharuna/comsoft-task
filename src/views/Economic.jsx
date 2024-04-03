@@ -10,7 +10,7 @@ export default function Economic() {
                     Economic
                 </h1>
                 <p>
-                    Your business sectior is <span className="font-semibold">Agriculture abd Agribusiness </span> <a href="#" className='font-bold text-green-400 ms-2'>Change</a>
+                    Your business sectior is <span className="font-semibold">Agriculture and Agribusiness </span> <a href="#" className='font-bold text-green-400 ms-2'>Change</a>
                 </p>
             </div>
 

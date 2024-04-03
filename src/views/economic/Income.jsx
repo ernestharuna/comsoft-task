@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Income() {
     return (
-        <div>Income</div>
+        <div className='text-gray-600 font-semibold'>
+            No data here
+        </div>
     )
 }

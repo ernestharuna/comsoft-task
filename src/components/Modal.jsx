@@ -5,11 +5,8 @@ const Modal = ({ children, isOpen, onClose }) => {
 
     return (
         <div className="fixed outline outline-1 outline-black inset-0 bg-gray-500 bg-opacity-75 backdrop-blur-sm z-50 flex justify-center items-center">
-            <div className="bg-white rounded-lg p-4 shadow-lg max-w-lg">
+            <div className="bg-white rounded-lg p-4 shadow-lg max-w-lg w-1/2">
                 {children}
-                <button className="text-red-500 hover:text-red-700 focus:outline-none" onClick={onClose}>
-                    Close
-                </button>
             </div>
         </div>
     );

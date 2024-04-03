@@ -20,7 +20,7 @@ const Tree = () => {
     return (
         <ul>
             <li className='mb-5'>
-                <button onClick={handleToggle} className="flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-primary active:text-primary">
+                <button onClick={handleToggle} className="flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-green-500 active:text-green-600">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 mr-3">
                         <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                     </svg>
@@ -31,7 +31,7 @@ const Tree = () => {
                 </button>
                 <ul className={isOpen ? "!visible" : "hidden"} id="collapseThree" data-twe-collapse-item>
                     <li className="ml-14 mt-3">
-                        <button onClick={handleSecondToggle} className="flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-primary active:text-primary">
+                        <button onClick={handleSecondToggle} className="flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-green-500 active:text-green-600">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 mr-3">
                                 <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                             </svg>
@@ -41,7 +41,7 @@ const Tree = () => {
                             <li className="ml-14 mt-3">
                                 <button
                                     onClick={handleThirdToggle}
-                                    className="flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-primary active:text-primary"
+                                    className="flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-green-500 active:text-green-600"
                                 >
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 mr-3">
                                         <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
@@ -50,7 +50,7 @@ const Tree = () => {
                                 </button>
                                 <ul className={isThirdOpen ? "!visible" : "hidden"} id="collapseThirdThree" data-twe-collapse-item>
                                     <li className="ml-14 mt-4 hover:bg-gray-300 rounded-md">
-                                        <button className='flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-primary active:text-primary'>
+                                        <button className='flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-green-500 active:text-green-600'>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 mr-3">
                                                 <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                                             </svg>
@@ -58,7 +58,7 @@ const Tree = () => {
                                         </button>
                                     </li>
                                     <li className="ml-14 mt-4 hover:bg-gray-300 rounded-md">
-                                        <button className='flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-primary active:text-primary'>
+                                        <button className='flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-green-500 active:text-green-600'>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 mr-3">
                                                 <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                                             </svg>
@@ -66,7 +66,7 @@ const Tree = () => {
                                         </button>
                                     </li>
                                     <li className="ml-14 mt-4 hover:bg-gray-300 rounded-md">
-                                        <button className='flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-primary active:text-primary'>
+                                        <button className='flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-green-500 active:text-green-600'>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 mr-3">
                                                 <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                                             </svg>
@@ -74,7 +74,7 @@ const Tree = () => {
                                         </button>
                                     </li>
                                     <li className="ml-14 mt-4 hover:bg-gray-300 rounded-md font-bold">
-                                        <button className='flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-primary active:text-primary'>
+                                        <button className='flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-green-500 active:text-green-600'>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 mr-4">
                                                 <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
                                             </svg>
@@ -88,7 +88,7 @@ const Tree = () => {
                 </ul>
             </li>
             <li className='mb-5'>
-                <button className="flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-primary active:text-primary">
+                <button className="flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-green-500 active:text-green-600">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 mr-3">
                         <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                     </svg>
@@ -100,7 +100,7 @@ const Tree = () => {
             </li>
 
             <li className='mb-5'>
-                <button className="flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-primary active:text-primary">
+                <button className="flex items-center px-2 hover:bg-gray-300 rounded-md focus:text-green-500 active:text-green-600">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 mr-3">
                         <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                     </svg>

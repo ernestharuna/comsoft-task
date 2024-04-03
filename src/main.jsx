@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import {
+  Navigate,
   RouterProvider,
   createBrowserRouter
 } from 'react-router-dom'
@@ -27,8 +28,8 @@ const router = createBrowserRouter([
     element: <DefaultLayout />,
     children: [
       {
-        index: true,
-        element: <Economic />,
+        path: "/",
+        element: <Navigate to={'economic'} />,
       },
 
       {
@@ -36,8 +37,8 @@ const router = createBrowserRouter([
         element: <Economic />,
         children: [
           {
-            index: true,
-            element: <Assets />
+            path: "economic",
+            element: <Navigate to={'economic'} />,
           },
           {
             path: 'assets',
